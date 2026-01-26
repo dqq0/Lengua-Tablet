@@ -1,0 +1,43 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 34
+    buildToolsVersion "34.0.0"
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    namespace 'com.jiangdg.uvccamera'
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 34
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+// task ndkClean(type: Exec, description: 'clean JNI libraries') {
+// 	println('executing ndkBuild clean')
+// 	def ndkBuildPath = getNdkBuildPath();
+// 	commandLine ndkBuildPath, 'clean', '-C', file('src/main').absolutePath
+// }
+// clean.dependsOn 'ndkClean'
+
+dependencies {
+    implementation fileTree(dir: new File(buildDir, 'libs'), include: '*.jar')
+	implementation "androidx.appcompat:appcompat:${androidXVersion}"
+	implementation 'com.elvishew:xlog:1.11.0'
+//	implementation project(path: ':libuvccommon')
+}

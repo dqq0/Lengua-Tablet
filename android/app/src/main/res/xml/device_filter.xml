@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Logitech Brio 4K -->
+    <usb-device vendor-id="1133" product-id="2142" />
+    <!-- Generic Logitech (VID 1133 is 0x046d) -->
+    <usb-device vendor-id="1133" />
+</resources>

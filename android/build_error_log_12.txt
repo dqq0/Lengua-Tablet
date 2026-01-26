@@ -1,0 +1,118 @@
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by net.rubygrapefruit.platform.internal.NativeLibraryLoader in an unnamed module (file:/Users/diego/.gradle/wrapper/dists/gradle-8.14-all/c2qonpi39x1mddn7hk5gh9iqj/gradle-8.14/lib/native-platform-0.22-milestone-28.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+> Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle:compileKotlin UP-TO-DATE
+> Task :gradle:compileJava NO-SOURCE
+> Task :gradle:compileGroovy NO-SOURCE
+> Task :gradle:pluginDescriptors UP-TO-DATE
+> Task :gradle:processResources UP-TO-DATE
+> Task :gradle:classes UP-TO-DATE
+> Task :gradle:jar UP-TO-DATE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:compileFlutterBuildDebug
+> Task :app:packJniLibsflutterBuildDebug
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :path_provider_android:preBuild UP-TO-DATE
+> Task :path_provider_android:preDebugBuild UP-TO-DATE
+> Task :path_provider_android:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:cleanMergeDebugAssets
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :path_provider_android:mergeDebugShaders UP-TO-DATE
+> Task :path_provider_android:compileDebugShaders NO-SOURCE
+> Task :path_provider_android:generateDebugAssets UP-TO-DATE
+> Task :path_provider_android:mergeDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:copyFlutterAssetsDebug
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :path_provider_android:generateDebugResValues UP-TO-DATE
+> Task :path_provider_android:generateDebugResources UP-TO-DATE
+> Task :path_provider_android:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :path_provider_android:extractDeepLinksDebug UP-TO-DATE
+> Task :path_provider_android:processDebugManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:outputDebugAppLinkSettings UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :path_provider_android:compileDebugLibraryResources UP-TO-DATE
+> Task :path_provider_android:parseDebugLocalResources UP-TO-DATE
+> Task :path_provider_android:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :path_provider_android:javaPreCompileDebug UP-TO-DATE
+> Task :path_provider_android:compileDebugJavaWithJavac UP-TO-DATE
+> Task :path_provider_android:bundleLibCompileToJarDebug UP-TO-DATE
+
+> Task :app:compileDebugKotlin FAILED
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/MainActivity.kt:19:12 Unresolved reference 'google'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/MainActivity.kt:77:59 Unresolved reference 'HandLandmarkerResult'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/MainActivity.kt:124:48 Unresolved reference 'HandLandmarkerResult'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/camera/UsbCameraService.kt:13:12 Unresolved reference 'google'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/camera/UsbCameraService.kt:14:12 Unresolved reference 'google'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/camera/UsbCameraService.kt:15:12 Unresolved reference 'google'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/camera/UsbCameraService.kt:16:12 Unresolved reference 'google'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/camera/UsbCameraService.kt:17:12 Unresolved reference 'google'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/camera/UsbCameraService.kt:18:12 Unresolved reference 'google'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/camera/UsbCameraService.kt:25:34 Unresolved reference 'HandLandmarkerResult'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/camera/UsbCameraService.kt:29:33 Unresolved reference 'HandLandmarker'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/camera/UsbCameraService.kt:42:35 Unresolved reference 'BaseOptions'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/camera/UsbCameraService.kt:44:34 Unresolved reference 'Delegate'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/camera/UsbCameraService.kt:47:31 Unresolved reference 'HandLandmarker'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/camera/UsbCameraService.kt:49:37 Unresolved reference 'RunningMode'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/camera/UsbCameraService.kt:51:41 Cannot infer type for value parameter 'e'. Specify it explicitly.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/camera/UsbCameraService.kt:51:77 Unresolved reference 'message'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/camera/UsbCameraService.kt:57:34 Unresolved reference 'HandLandmarker'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/camera/UsbCameraService.kt:65:38 Unresolved reference 'HandLandmarkerResult'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/camera/UsbCameraService.kt:65:76 Unresolved reference 'google'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/camera/UsbCameraService.kt:84:25 Unresolved reference 'close'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/logic/EmotionRules.kt:3:12 Unresolved reference 'google'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/logic/EmotionRules.kt:16:43 Unresolved reference 'NormalizedLandmark'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/logic/EmotionRules.kt:41:39 Unresolved reference 'y'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/logic/EmotionRules.kt:41:62 Unresolved reference 'y'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/logic/EmotionRules.kt:42:29 Unresolved reference 'y'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/logic/EmotionRules.kt:46:30 'operator' modifier is required on 'fun String.compareTo(other: String, ignoreCase: Boolean = ...): Int'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/logic/EmotionRules.kt:46:41 Unresolved reference 'y'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/logic/EmotionRules.kt:57:35 Unresolved reference 'y'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/logic/EmotionRules.kt:57:50 Unresolved reference 'y'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/logic/EmotionRules.kt:58:42 Unresolved reference 'y'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/logic/EmotionRules.kt:58:60 Unresolved reference 'y'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/logic/EmotionRules.kt:59:43 Unresolved reference 'y'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/logic/EmotionRules.kt:59:62 Unresolved reference 'y'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/logic/EmotionRules.kt:63:25 'operator' modifier is required on 'fun String.compareTo(other: String, ignoreCase: Boolean = ...): Int'.
+e: file:///Users/diego/Documents/Lengua%20Tablet/android/app/src/main/kotlin/com/example/sign_language_app/logic/EmotionRules.kt:69:25 'operator' modifier is required on 'fun String.compareTo(other: String, ignoreCase: Boolean = ...): Int'.
+
+[Incubating] Problems report is available at: file:///Users/diego/Documents/Lengua%20Tablet/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 5s
+39 actionable tasks: 6 executed, 33 up-to-date
